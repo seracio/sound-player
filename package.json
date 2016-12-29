@@ -1,0 +1,30 @@
+{
+  "name": "sound-player",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack-dev-server --hot --inline --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seracio/sound-player.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seracio/sound-player/issues"
+  },
+  "homepage": "https://github.com/seracio/sound-player#readme",
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-env": "^1.1.4",
+    "isomorphic-fetch": "^2.2.1",
+    "webpack": "2.2.0-rc.3",
+    "webpack-dev-server": "2.2.0-rc.0",
+    "xstream": "^9.3.0"
+  }
+}
