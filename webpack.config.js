@@ -13,7 +13,7 @@ module.exports = options => {
       publicPath: '/dist/',
     },
     externals: {
-      'jsmediatags': 'jsmediatags',
+      'jsmediatags': 'jsmediatags'
     },
     module: {
       loaders: [{
