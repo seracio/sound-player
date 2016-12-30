@@ -1481,6 +1481,12 @@ iconv-lite@~0.4.13:
   version "0.4.15"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.15.tgz#fe265a218ac6a57cfe854927e9d04c19825eddeb"
 
+id3-parser@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/id3-parser/-/id3-parser-1.1.1.tgz#c85571d8b24da9aec8887835344adb85f43c93f0"
+  dependencies:
+    promise-a-plus "^0.6.0"
+
 ieee754@^1.1.4:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
@@ -2125,6 +2131,10 @@ process-nextick-args@~1.0.6:
 process@^0.11.0:
   version "0.11.9"
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.9.tgz#7bd5ad21aa6253e7da8682264f1e11d11c0318c1"
+
+promise-a-plus@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/promise-a-plus/-/promise-a-plus-0.6.0.tgz#3da4fd047fc162d7b256376bc697b3fa9eadc7ac"
 
 proxy-addr@~1.1.2:
   version "1.1.2"

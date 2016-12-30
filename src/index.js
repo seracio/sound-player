@@ -2,8 +2,8 @@ import 'babel-polyfill';
 import 'isomorphic-fetch';
 
 import * as d3 from 'd3-selection';
-import xs from 'xstream';
 import jsmediatags from 'jsmediatags';
+import xs from 'xstream';
 
 // Web audio API context
 const context = new AudioContext();
